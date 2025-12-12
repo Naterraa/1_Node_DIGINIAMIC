@@ -1,7 +1,7 @@
 TP 2 : API REST Recettes de cuisine
 
 L'objectif du TP est de créer une API REST avec le module http de Node.js.
-Les données seront stockées dans un tableau JavaScript en mémoire, sans fichier JSON ni base de données.
+Les données seront stockées dans un tableau JavaScript en mémoire, avec fichier JSON.
 
 Chaque recette devra suivre le format :
 
@@ -15,7 +15,7 @@ Chaque recette devra suivre le format :
 }
 ```
 
-Voici un tableau de départ initialisé dans server.js 
+Voici un tableau de départ initialisé dans un fichier json
 
 ```
 let recipes = [
